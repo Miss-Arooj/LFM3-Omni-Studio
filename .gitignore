@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+lfm3_env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model weights and caches
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+.cache/
+huggingface/
+transformers/
+
+# Uploaded / generated media and temporary files
+uploads/
+temp/
+tmp/
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.flac
+*.ogg
+
+# Logs
+*.log
+logs/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

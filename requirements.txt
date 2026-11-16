@@ -1,0 +1,13 @@
+transformers>=5.20.2
+torch
+torchvision
+torchcodec
+accelerate
+pillow
+librosa
+soundfile
+numpy
+fastapi
+uvicorn
+python-multipart
+imageio-ffmpeg
