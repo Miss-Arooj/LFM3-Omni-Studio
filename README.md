@@ -20,15 +20,15 @@ Shows how to upload an image and ask the model questions about its visual conten
 
 https://github.com/user-attachments/assets/a3273b58-e734-464b-ac81-3dfea6472cff
 
-### 4. Audio Input — Without a Prompt
-Demonstrates uploading an audio file with an empty prompt to generate a transcription.
-
-https://github.com/user-attachments/assets/2854ca59-5b3a-4459-845d-68a83bc07590
-
-### 5. Audio Input — With a Prompt
+### 4. Audio Input — With a Prompt
 Demonstrates asking a question about an audio file instead of requesting a basic transcription.
 
 https://github.com/user-attachments/assets/111c34d6-ec2d-4f71-992e-35ffd1482f85
+
+### 5. Audio Input — Without a Prompt
+Demonstrates uploading an audio file with an empty prompt to generate a transcription.
+
+https://github.com/user-attachments/assets/2854ca59-5b3a-4459-845d-68a83bc07590
 
 ### 6. Video Input
 Shows how to upload a video and ask the model to describe or analyze its content. The dashboard also includes an option to analyze the video's soundtrack.
