@@ -8,32 +8,32 @@ A web-based multimodal AI application powered by **Liquid AI's LFM3-Omni-2B** mo
 ### 1. Dashboard Overview
 A quick walkthrough of the dashboard, its input modes, response panel, and available controls.
 
-[Watch Dashboard Overview](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/b973e409-2bb3-4dd5-9f77-c71bf9fe8101
 
 ### 2. Text Input
 Demonstrates submitting a text prompt and viewing the model's generated response.
 
-[Watch Text Input Demo](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/1679585b-dedc-44bc-b2c6-a36755c0fe11
 
 ### 3. Image Input
 Shows how to upload an image and ask the model questions about its visual content.
 
-[Watch Image Input Demo](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/a3273b58-e734-464b-ac81-3dfea6472cff
 
 ### 4. Audio Input — Without a Prompt
 Demonstrates uploading an audio file with an empty prompt to generate a transcription.
 
-[Watch Audio Input (Without Prompt)](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/2854ca59-5b3a-4459-845d-68a83bc07590
 
 ### 5. Audio Input — With a Prompt
 Demonstrates asking a question about an audio file instead of requesting a basic transcription.
 
-[Watch Audio Input (With Prompt)](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/111c34d6-ec2d-4f71-992e-35ffd1482f85
 
 ### 6. Video Input
 Shows how to upload a video and ask the model to describe or analyze its content. The dashboard also includes an option to analyze the video's soundtrack.
 
-[Watch Video Input Demo](ADD_VIDEO_LINK_HERE)
+https://github.com/user-attachments/assets/bd355aba-aeb3-47d2-9c16-19b56c544e3b
 
 ---
 
@@ -44,7 +44,6 @@ Shows how to upload a video and ask the model to describe or analyze its content
 - **Audio understanding:** Transcribe audio when the prompt is empty, or ask questions about the audio.
 - **Video understanding:** Analyze video content and optionally include its soundtrack.
 - **Live response updates:** Display generated text as it becomes available.
-- **Background job processing:** Submit a task, receive a job ID, and check its status.
 - **Job controls:** View task status and cancel a running task.
 - **Upload validation:** Supports configured file types and a 50 MB upload limit.
 - **Performance information:** Displays model/device status, active jobs, and generation metrics.
@@ -192,6 +191,13 @@ The model is downloaded from Hugging Face at runtime; model weights are not incl
 - Do not upload private, confidential, or sensitive media unless you have permission and understand where the server processes and stores it.
 - This repository does not include model weights, virtual environments, uploaded media, or generated temporary files.
 
-## License
+## Future Improvements
 
-The application source code does not currently declare a separate open-source license. Add a `LICENSE` file only after choosing the license you want to apply to your own code. The model has its own separate license; see the model card linked above.
+The following features are planned to expand the application's real-time multimodal capabilities:
+
+- **Live Audio Input:** Capture audio directly from the microphone and enable real-time audio understanding and interaction.
+- **Live Image Capture:** Capture images directly using a webcam instead of uploading image files.
+- **Live Audio/Video Capture:** Enable real-time camera and microphone access for capturing and analyzing audio and video streams.
+- **Real-Time Multimodal Interaction:** Support continuous interaction with the model using live text, images, audio, and video inputs.
+- **Improved Performance:** Optimize inference speed, memory usage, and response latency for a smoother user experience.
+- **Expanded Language Support:** Improve multilingual capabilities and support for additional languages.
